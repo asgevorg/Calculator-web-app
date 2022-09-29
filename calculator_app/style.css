@@ -1,7 +1,9 @@
+/* make responsive */
 .calculator {
     max-width: 350px;
     margin: 10vh auto 0 auto;
-    box-shadow: 11px 0px 50px 11px rgb(175, 174, 174);
+    box-shadow: 11px 0px 50px 11px rgb(175, 174, 174); 
+    /* miavorov bajanac */
     padding: 10px;
     padding-bottom: 2px;
 }
@@ -16,16 +18,16 @@
 .buttons {
     display: grid;
     grid-template-columns: 0.6fr 0.6fr 0.6fr 0.6fr;
+    grid-auto-rows: 0.6fr;
 }
-
-.buttons > div {
+/* 
+.buttons > button {
     border-top: 1px solid black;
     border-right: 1px solid black;
     border-left: 0px;
-}
+} */
 
-.btn {   
-    line-height: 80px;
+.btn {
     text-align: center;
     font-size: 25px;
     cursor: pointer;
